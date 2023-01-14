@@ -84,7 +84,6 @@ function startCount() {
 
     if (selectedDate - currentTime < 1000) {
       clearInterval(interval);
-      // return;
     }
   }, 1000);
 }
